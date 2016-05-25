@@ -1,0 +1,2 @@
+# FASP
+Functional AStrocyte Phenotyping (FASP) is a Fiji plugin that automatically analyzes and characterizes the spatiotemporal functional status of astrocytes from time-lapse Ca2+-fluorescence microscopy imaging data. Being totally unsupervised, it automatically detects astrocyte functionally independent units (FIUs), extracts functional features of them, and further characterizes the functional status.
