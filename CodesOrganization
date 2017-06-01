@@ -1,0 +1,22 @@
+The codes are organized in accordance with modules presented in the paper:
+
+1)	Class “FASP_”: 
+    The main function and GUI input/output. 
+    The output part corresponds to Module 3.
+
+2)	Class “AstrocyteCaMovie”: 
+    The class of astrocyte time-lapse Ca2+ imaging data. 
+    FASP is a function “fasp()” under this class, meaning to do FASP analysis to an imaging data object.
+
+3)	Class “ActiveMap”: 
+    The class of active region map of an imaging data sample, corresponding to Module 1. 
+    When an object of “ActiveMap” is generated, procedures in Module 1 are conducted and a map of active regions is reported as output.
+
+4)	Class “ActiveRegion”: 
+    The class of the current active region under analysis in Module 2, corresponding to Module 2. 
+    The functions belonging to this class serve to find FIUs within the given active region and learn their characteristic curves.
+
+5)	Class “HTregionGrowing”: 
+    The class of region growing based on order statistics guided hypothesis testing, corresponding to Section 2.3.3. 
+    This class will be used in both Module 1 and Module 2, so we defined it as an independent class.
+
