@@ -3,10 +3,12 @@ Functional AStrocyte Phenotyping (FASP) is a Fiji plugin that automatically anal
 
 FASP explicitly models and well handles the intracellular propagation phenomena of astrocytic Ca2+ fluctuations, the major reason why it’s difficult to repurpose the existing methods of neuron spatiotemporal analysis for astrocytes. Besides, considering the complex nature of Ca2+ signaling and low signal to noise ratio, FASP is designed to be data-driven and probabilistically principled, to flexibly account for complex patterns and perform robustly with noisy data. Parameter tuning is purposely designed to be very easy: the only two parameters for users to tune have either probabilistic meaning or physical (scale) meanings.
 
-## How to cite FASP
-The FASP Fiji plugin is based on algorithm introduced in our following paper which is submitted and under review:
+FASP has been updated to analyze more complex data, especially in vivo data. The new version is available upon request to Prof. Yu (yug@vt.edu).
 
-Yinxue Wang, Guilai Shi, David J. Miller, Yizhi Wang, Congchao Wang, Gerard Broussard, Yue Wang, Lin Tian, and Guoqiang Yu. "Automated functional analysis of astrocytes from chronic time-lapse calcium imaging data." Submitted.
+## How to cite FASP
+The FASP Fiji plugin is based on algorithm introduced in our following paper:
+
+Wang, Yinxue, Guilai Shi, David J. Miller, Yizhi Wang, Congchao Wang, Gerard Broussard, Yue Wang, Lin Tian, and Guoqiang Yu. "Automated Functional Analysis of Astrocytes from Chronic Time-Lapse Calcium Imaging Data." Frontiers in neuroinformatics 11 (2017): 48.
 
 ## Tutorial
 Please see user manual.
